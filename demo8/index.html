@@ -3,15 +3,21 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>demo7</title>
+    <title>demo8</title>
     <script type="text/javascript" language="javascript" src="kirjautuminen.js"></script>
 </head>
 
 <body>
-    <p id="tervetulo_teksti">Tervetuloa </p>
+    <p id="kirjaudu_teksti">Ole hyvä ja kirjaudu sisään:</p>
     <form id="kirjautumis_lomake">
         <input id="nimi" type="text" placeholder="Syötä nimesi" value="" />
         <input id="kirjaudu_nappi" type="submit" value="Kirjaudu sisään" onclick="kirjaudu()" />
+    </form>
+</body>
+<body>
+    <p id="tervetulo_teksti">Tervetuloa </p>
+    <form id="kirjaudu_ulos_lomake">
+        <input id="kirjaudu_ulos_nappi" type="submit" value="Kirjaudu ulos" onclick="kirjaudu_ulos()" />
     </form>
 </body>
 

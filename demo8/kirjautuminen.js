@@ -6,9 +6,6 @@ function onkoKirjautunut() {
         document.getElementById("kirjaudu_ulos_lomake").style.display;
         document.getElementById("kirjautumis_lomake").style.display="none"
     }
-}
-
-function onkoKirjautunut() {
     if (localStorage.getItem("kirjautunut") === "ei") {
         document.getElementById("kirjaudu_teksti").textContent;
         document.getElementById("kirjaudu_ulos_lomake").style.display="none";
